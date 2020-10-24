@@ -28,7 +28,7 @@ function iLoveTheBeatles(number) {
   }
   var phrases = []
   do {
-    phrases.push('I love the Beatles')
+    phrases.push('I love the Beatles!')
   } while (increment() < 15)
 return phrases
 
