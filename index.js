@@ -11,7 +11,11 @@ function theBeatlesPlay(musicians, instruments) {
 
 // johnLennonFacts
 function johnLennonFacts(facts) {
-
+  var phrases = []
+  for (let i = 0; i < facts.length; i++) {
+    phrases.push(`${facts[i]}!`)
+  }
+  return phrases
 
 }
 
