@@ -22,10 +22,14 @@ function johnLennonFacts(facts) {
 
 // iLoveTheBeatles
 function iLoveTheBeatles(number) {
-  var phrases = []
-  for (let i = 0; i < number; i++) {
-    phrases.push('I love the Beatles!')
+  function increment() {
+    number += 1
+    return number
   }
+  var phrases = []
+  do {
+    phrases.push('I love the Beatles')
+  } while (increment() < 15)
 return phrases
 
 }
